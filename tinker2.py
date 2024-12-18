@@ -19,7 +19,6 @@ def move_left(event):
      if not game_over:
         canvas.move ( player, -player_speed, 0)
 def move_right(event): 
-    print('right')
     if not game_over:
         canvas.move(player, player_speed, 0)
 # Функция для создания падающих блоков с меньшей вероятностью
